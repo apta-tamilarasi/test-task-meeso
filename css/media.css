@@ -1,0 +1,134 @@
+@media (min-width:320px){
+    .meeso-col1{
+        width:100%;
+        display:flex;
+        justify-content: space-evenly;
+        padding:0px 0px 10px 0px;
+    }
+    
+    .meeso-col2{
+        width:100%;
+    }
+    
+    .meeso-col3{
+        width:100%;
+    }
+
+    .meeso-col2-image img{
+        height:70vh;
+        width:89vw;
+        text-align: center;
+    }
+
+    .meeso-col2-button a{
+        text-decoration:none;
+        padding:10px 10px 10px 10px;
+        
+    }
+
+    
+    .meeso-col2-images img{
+        height: 70px;
+        width:40px;
+    }
+
+
+    
+
+}
+
+/* ipad */
+
+@media (min-width:560px){
+    .meeso-col1{
+        width:100%;
+    }
+    
+    .meeso-col2{
+        width:100%;
+    }
+    
+    .meeso-col3{
+        width:100%;
+    }
+
+    .meeso-container{
+        width:90%;
+        margin:auto;
+    }
+
+    .meeso-col2-image img{
+        height:70vh;
+        width:80vw;
+        text-align: center;
+    }
+
+    .meeso-col2-image{
+        padding:0px 20px 0px 20px;
+    }
+
+    .meeso-col2-button a{
+        text-decoration:none;
+        padding:10px 65px 10px 65px;
+        
+    }
+
+    .meeso-col2-images img{
+        height: 70px;
+        width:60px;
+    }
+
+
+
+}
+
+
+/*lab top*/
+@media (min-width:1000px){
+    .meeso-row{
+        display:flex;
+    }
+
+    .meeso-col1{
+        width:10%;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .meeso-col2{
+        width:44%;
+       
+    }
+    
+    .meeso-col3{
+        width:45%;
+        padding:0px 20px 0px 20px;
+    }
+
+    .meeso-container{
+        width:90%;
+        margin:auto;
+    }
+
+    .meeso-col2-image img{
+        height:480px;
+        width:450px;
+        text-align: center;
+    }
+
+    .meeso-col2-image{
+        padding:0px 30px 0px 30px;
+    }
+
+    .meeso-col2-button a{
+        text-decoration:none;
+        padding:10px 65px 10px 65px;
+        
+    }
+
+    .meeso-col2-images img{
+        height: 70px;
+        width:60px;
+    }
+}

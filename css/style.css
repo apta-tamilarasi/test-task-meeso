@@ -1,0 +1,327 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-size;
+}
+
+.meeso-section{
+    padding:20px;
+}
+
+/*
+.meeso-container{
+    width:80%;
+    margin:auto;
+}
+
+
+.meeso-row{
+    display:flex;
+}*/
+
+.meeso-col1-image img{
+    height:50px;
+    width:50x;
+    padding:0px 5px 0px 5px;
+}
+
+#col1-image{
+    border:1px solid rgb(255, 0, 242);
+ 
+}
+
+
+/*
+.meeso-col1{
+    width:10%;
+}
+
+.meeso-col2{
+    width:44%;
+}
+
+.meeso-col3{
+    width:45%;
+}
+*/
+
+.meeso-col2-image{
+   /* padding:0px 30px 0px 30px;*/
+    border:1px solid rgb(219, 221, 224);
+}
+
+/*.meeso-col2-image img{
+    height:480px;
+    width:400px;
+    text-align: center;
+}*/
+
+.meeso-col2-button{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 0px 20px 0px;
+    border-bottom:1px solid rgb(219, 221, 224);
+   
+}
+
+/*
+.meeso-col2-button a{
+    text-decoration:none;
+    padding:10px 65px 10px 65px;
+    
+}
+*/
+
+#button1 a{
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    border:1px solid black;
+}
+
+#button2 a{
+    color:white;
+    background-color: rgb(233, 9, 203);
+    border:1px solid rgb(233, 9, 203);
+}
+
+.meeso-col2-images{
+    display:flex;
+    justify-content: space-between;
+   /* padding:20px;*/
+
+}
+
+h3{
+    padding:20px 0px 20px 0px;
+    font-family:initial;
+    font-weight:bolder;
+}
+
+/*.meeso-col2-images img{
+    height: 70px;
+    width:60px;
+}*/
+
+#col2-image1{
+    border:2px solid rgb(255, 0, 242);
+ 
+}
+
+#col2-image2{
+    position:relative;
+}
+
+#col2-image2 div{
+    position:absolute;
+    top:30%;
+    left:80%;
+    height:20px;
+    width:20px;
+    text-align:center;
+    background-color: white;
+    border:1px solid white;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 50%;
+}
+
+
+.meeso-col3-container{
+    border:1px solid rgb(219, 221, 224);
+    border-radius: 5px;
+    padding:10px;
+   
+}
+
+.meeso-col3-container h4{
+    padding-bottom: 10px;
+}
+
+
+.meeso-col3-section1{
+    padding:10px;
+   
+    
+}
+
+
+#meeso-col3-section1{
+    display:flex;
+   
+
+}
+#meeso-col3-section1 p{
+    background-color: green;
+    padding:5px;
+    border-radius:20px;
+    color:white;
+}
+
+
+span{
+    padding:0px 0px 0px 10px;
+    color:rgb(154, 160, 155);
+    font-size:14px;
+}
+
+.meeso-col3-section1 p{
+    padding-top:10px;
+}
+
+.meeso-col3-section1 div{
+    padding-top:10px;
+}
+
+.meeso-col3-section1-1 span{
+    padding:5px 5px 5px 10px;
+    color:black;
+    background-color:rgb(219, 221, 224);;
+    border-radius:20px;
+}
+
+.meeso-col3-section2{
+    padding:10px;
+}
+
+
+#meeso-col3-container{
+    display:flex;
+    
+}
+
+.meeso-col3-card{
+    padding:10px;
+    height:20px;
+
+}
+
+.meeso-col3-card p{
+    padding:5px 10px 5px 10px;
+   border:1px solid black;
+   border-radius: 20px;
+}
+
+.meeso-col3-section3{
+    padding:10px;
+}
+
+.meeso-col3-section3 a{
+    text-decoration: none;
+    color:black;
+    border-bottom:1px dotted black;
+}
+
+.card3-content{
+    padding:10px 10px;
+}
+.card3-bod{
+    border:1px solid rgb(219, 221, 224);
+    padding:20px;
+    border-radius:10px;
+}
+
+.card3-para{
+    color:silver;
+}
+
+.card3-para1{
+    color:silver;
+    font-size:14px;
+    padding-left:10px;
+}
+
+.card3-head{
+    padding-top:5px;
+}
+.card3-icons{
+    background-color: green;
+    width:60px;
+    border-radius: 20px;
+    height:20px;
+    padding:1px 10px;
+    color:white;
+}
+
+.card3-icons1{
+    padding-top:10px;
+}
+
+
+.card3-icons1 p{
+    background-color:rgb(235, 228, 228);
+    display:inline-block; 
+    padding:8px 10px;
+    border-radius: 20px;
+}
+
+
+
+.card3-ico{
+    color:silver;
+}
+
+.card3-incontent{
+    display:flex;
+    padding-top:10px;
+}
+
+.card3-incontent2{
+    display:flex;
+}
+
+.card3-icons2{
+   padding-top: 10px;
+   padding-right: 10px;
+}
+
+.card3-icons2 p{
+    
+    padding:5px 15px;
+    border:1px solid black;
+    border-radius:20px;
+}
+
+.card3-incontent3{
+    color:rgb(136, 131, 131);
+}
+
+.card3-edit{
+    display:flex;
+    padding-top:10px;
+}
+.card3-edit1 i{
+    background-color:rgb(144, 203, 236);
+    padding:10px;
+    border-radius: 50px;
+    color:rgb(23, 119, 184);
+}
+.card3-edit p{
+    padding-left:10px;
+    font-size: 18px;
+}
+.card3-edit2{
+    padding-left: 100px;
+}
+.card3-edit3{
+    padding-top:30px;
+    padding-left:30px;
+    display:flex;
+}
+.card3-container{
+    padding-right:30px;
+}
+.card3-edit2 p{
+    border:1px solid rgb(180, 40, 63);
+    border-radius: 10px;
+    padding:5px 10px; 
+    color:rgb(199, 43, 69);
+}
+
+
+
+
+
+
+
+
+
